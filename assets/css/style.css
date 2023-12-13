@@ -1,7 +1,7 @@
 :root {
   --color-primario: #4831d4;
-  --color-secundario: #ccf381;
-  --color-terciario: #4831d4;
+  --color-secundario: #f87a03;
+  
   --coscuro: #0d1117;
   --claro: #ffffff;
 
@@ -39,7 +39,7 @@ body {
   main {
     width: 100%;
     margin: auto;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,8 +53,18 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color: #ccf381;
+    background-color: var(--color-secundario)
   }
-  .izq {
-    color: #ffffff;
+  .izq > h1  {
+    color: var(--claro)
+  
   }
+h1  {
+  color: var(--claro);
+  font-size: 4rem;
+}
+
+.izq > h2 {
+  color: var(--color-secundario);
+  font-size: 2rem;
+}
