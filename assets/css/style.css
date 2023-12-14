@@ -55,6 +55,10 @@ body {
     align-items:center;
     background-color: var(--color-secundario)
   }
+
+  .izq {
+    /* border: 4px solid red; */
+  }
   .izq > h1  {
     color: var(--claro)
   
@@ -62,9 +66,59 @@ body {
 h1  {
   color: var(--claro);
   font-size: 4rem;
+  /* border: 4px solid blue; */
+  margin: 1px;
+  
 }
 
 .izq > h2 {
   color: var(--color-secundario);
   font-size: 2rem;
+  /* border: 4px solid red; */
+  margin: 1px;
+}
+
+.der{
+  background-color: var(--color-secundario);
+  border-radius: 20px;
+  box-shadow: inset -5px -5px 10px rgba(0,0,0,.3),inset
+  5px 5px 10px rgba(255,255,255,.3);
+  background-image: url("https://images.pexels.com/photos/163275/pexels-photo-163275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650");
+  background-position: center;
+  background-repeat: no-repear;
+  background-size: cover;
+  padding: 2% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+
+
+}
+
+.ima {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  border: 2px solid var(--claro); 
+  box-shadow: 0 0 10px rgba(72, 49, 212, 0.5);
+  color:#4831d4
+}
+h4 {
+  color:var(--color-secundario)
+}
+
+.cajah {
+  display: flex;
+  align-items:last baseline; 
+  /* border: 4px solid red; */
+}
+
+.cajah > h4 {
+  
+  line-height: 1.5em;
+  font-size: 1.5rem;
+  margin: 20px; 
 }
