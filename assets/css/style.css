@@ -93,7 +93,7 @@ h1  {
   justify-content: space-around;
   align-items: center;
   height: 80vh;
-  text-align: center;
+  text-align: left;
 
 
 }
@@ -121,4 +121,24 @@ h4 {
   line-height: 1.5em;
   font-size: 1.5rem;
   margin: 20px; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.icono {
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+}
+
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 2rem; 
 }
