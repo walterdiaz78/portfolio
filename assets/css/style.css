@@ -6,6 +6,7 @@
   --claro: #ffffff;
 
   --border: 5px solid red;
+}
 
 body {
     margin: 0;
@@ -46,9 +47,17 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #0d1117;
+    /*background-color: #0d1117;*/
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/image/developer.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+   
     
   }
+
+ 
+
   footer{
     background:#9b2c2c;
     color:white;
