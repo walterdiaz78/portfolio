@@ -101,7 +101,7 @@ h1  {
 .der{
   width: auto;
   height:25px;
-  background-color: var(--coscuro);
+  background-color: rgba(13, 17, 23, 0.7); 
   border-radius: 20px;
   /*box-shadow: inset -5px -5px 10px rgba(0,0,0,.3),inset
   5px 5px 10px rgba(255,255,255,.3);*/
