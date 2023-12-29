@@ -172,3 +172,33 @@ ul li {
   list-style: none; 
   padding: 0; 
 }
+
+
+/* Estilos para el menú hamburguesa */
+.menu-icon {
+  display: none; /* Oculta el icono del menú por defecto */
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Apila los elementos verticalmente */
+  }
+
+  nav a {
+    display: none; /* Oculta los enlaces del menú por defecto en dispositivos pequeños */
+  }
+
+  .menu-icon {
+    display: block; /* Muestra el icono del menú en dispositivos pequeños */
+    cursor: pointer;
+  }
+
+  .menu-icon img {
+    width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 30px;
+  }
+
+  .menu-items {
+    display: none; /* Oculta los elementos del menú por defecto en dispositivos pequeños */
+  }
+}
